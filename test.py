@@ -98,7 +98,7 @@ def main(video_name,FPS,SIZE):
             video_add_mp3(change_name,mp3_name,output_name)
         else:
             if not os.path.isfile(change_name):
-                if not os.path.isfile(input_name + r'_cache\change_02699.jpg'):
+                if not os.path.isfile(input_name + r'_cache\change_00000.jpg'):
                     if not os.path.isfile(input_name + r'_cache\00000.jpg'):
                         if not os.path.isdir(input_name + '_cache'):os.mkdir(input_name + '_cache')
                         os.chdir(input_name + '_cache')
